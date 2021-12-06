@@ -1,0 +1,74 @@
+                                                                #################
+                                                                ## Descripcion ##
+                                                                #################
+                        ###########################################################
+                        ## Machine Predictive Maintenance Classification Dataset ##
+                        ###########################################################
+
+Since real predictive maintenance datasets are generally difficult to obtain and in particular difficult to publish, we present and provide a synthetic dataset that reflects real predictive maintenance encountered in the industry to the best of our knowledge.
+
+The dataset consists of 10 000 data points stored as rows with 14 features in columns
+
+UID: unique identifier ranging from 1 to 10000
+
+productID: consisting of a letter L, M, or H for low (50% of all products), medium (30%), and high (20%) as product quality variants and a variant-specific serial number
+
+air temperature [K]: generated using a random walk process later normalized to a standard deviation of 2 K around 300 K
+
+process temperature [K]: generated using a random walk process normalized to a standard deviation of 1 K, added to the air temperature plus 10 K.
+
+
+rotational speed [rpm]: calculated from powepower of 2860 W, overlaid with a normally distributed noise
+
+torque [Nm]: torque values are normally distributed around 40 Nm with an Ïƒ = 10 Nm and no negative values.
+
+tool wear [min]: The quality variants H/M/L add 5/3/2 minutes of tool wear to the used tool in the process. and a
+'machine failure' label that indicates, whether the machine has failed in this particular data point for any of the following failure modes are true.
+
+Important : There are two Targets - Do not make the mistake of using one of them as feature, as it will lead to leakage.
+
+Target : Failure or Not
+
+Failure Type : Type of Failure
+
+Acknowledgements
+
+UCI : https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset
+
+
+                                                            ################
+                                                            ## Traducción ##
+                                                            ################
+                                                            
+                       ##################################################################################
+                       ## Conjunto de datos de clasificación de mantenimiento predictivo de la máquina ##
+                       ##################################################################################
+
+
+Dado que los conjuntos de datos de mantenimiento predictivo reales son generalmente difíciles de obtener y, en particular, difíciles de publicar, presentamos y proporcionamos un conjunto de datos sintéticos que refleja el mantenimiento predictivo real que se encuentra en la industria a nuestro leal saber y entender.
+
+El conjunto de datos consta de 10000 puntos de datos almacenados como filas con 14 características en columnas.
+
+UID: identificador único que va de 1 a 10000
+
+productID: que consta de una letra L, M o H para baja (50% de todos los productos), media (30%) y alta (20%) como variantes de calidad del producto y un número de serie específico de la variante
+
+temperatura del aire [K]: generada mediante un proceso de caminata aleatoria que luego se normalizó a una desviación estándar de 2 K alrededor de 300 K
+
+temperatura de proceso [K]: generada mediante un proceso de recorrido aleatorio normalizado a una desviación estándar de 1 K, sumado a la temperatura del aire más 10 K.
+
+velocidad de rotación [rpm]: calculada a partir de una potencia de 2860 W, superpuesta con un ruido distribuido normalmente
+
+par [Nm]: los valores de par se distribuyen normalmente alrededor de 40 Nm con un Ïƒ = 10 Nm y sin valores negativos.
+
+Desgaste de la herramienta [min]: Las variantes de calidad H / M / L añaden 5/3/2 minutos de desgaste de la herramienta a la herramienta utilizada en el proceso. y un
+La etiqueta de 'falla de la máquina' que indica si la máquina ha fallado en este punto de datos en particular para cualquiera de los siguientes modos de falla es verdadera.
+
+Importante: Hay dos objetivos: no cometa el error de utilizar uno de ellos como función, ya que provocará fugas.
+
+Objetivo: fracaso o no
+
+Tipo de falla: Tipo de falla
+
+Agradecimientos
+UCI: https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset
