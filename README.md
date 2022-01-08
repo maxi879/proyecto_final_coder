@@ -1,8 +1,19 @@
+# Proyecto Final CoderHouse
 
-###############################
-## Proyecto Final CoderHouse ##
-###############################
-Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
-Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
+    Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
+    Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
+## Base de datos
+    Los datos pertenecen a un DATABASE publico, https://www.kaggle.com/shivamb/machine-predictive-maintenance-classification .
+    Dentro del directorio https://github.com/maxi879/proyecto_final_coder/blob/c6ad029288470c03c1b1730be33d6b686970f367/DATOS se encuentra los datos en formato .xlsx y un .txt con los detalles tecnicos necesarios para realizar un analisis.
+## Bibliotecas externas 
 Las bibliotecas utilizadas son:
-    
+    Pandas ==> Utilizado el objeto DataFrame para la manipulacion de datos.
+    Seaborn ==> Utilizado para la creacion y visualizacion de datos.
+    matplotlib ==> Llamando especificamente a pyplot para graficar.
+    Warnings ==> Para filtrar errores relativamente ignorables.
+    Nunpy ==> Para manipulacion de los datos.
+## Progreso
+    1 . El analisis comienza viendo los detalles tecnicos de las variables, para tener un contexto del DB.
+    2. Se carga el DB a un DataFrame, objeto perteneciente a la biblioteca Pandas.
+    3. Se revisan las caracteristicas del Frame, utilisando los diferentes atributos y funciones que posee un DataFrame.
+    4. 
