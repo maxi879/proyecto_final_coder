@@ -12,4 +12,4 @@
     - matplotlib ==> Llamando especificamente a pyplot para graficar.
     - Warnings ==> Para filtrar errores relativamente ignorables.
     - Nunpy ==> Para manipulacion de los datos.
-## Objetivo
+## Puntos a tener en cuenta
