@@ -12,6 +12,9 @@
     - Nunpy ==> Para manipulacion de los datos.
     - Sklearn ==> Machine Learning.
     - Imblearn ==> Para solucionar problemas de balanceo de datos.
+## Instalaciones necesarias
+    - Windows:
+    
 ## Objetivo
     Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
     Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
