@@ -13,7 +13,8 @@
     - Sklearn ==> Machine Learning.
     - Imblearn ==> Para solucionar problemas de balanceo de datos.
 ## Instalaciones necesarias
-    - Windows:
+    # Windows:
+    !
     
 ## Objetivo
     Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
