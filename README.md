@@ -10,12 +10,8 @@
     - Matplotlib ==> Llamando especificamente a pyplot para graficar.
     - Warnings ==> Para filtrar errores relativamente ignorables.
     - Nunpy ==> Para manipulacion de los datos.
-    - Sklearn ==> Machine Learning.
+    - Sklearn ==> Machine Learning y metricas.
     - Imblearn ==> Para solucionar problemas de balanceo de datos.
-## Instalaciones necesarias
-    # Windows:
-    !
-    
 ## Objetivo
     Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
     Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
@@ -27,5 +23,6 @@
     - ANALISIS, contiene el directorio \\INICIO, \\CLASIFICACION:
         1. \\INICIO, contiene el analisis Mono, bi y multi variado.
         2. \\CLASIFICACION, contiene la implementación de los algoritmos de clasificación. 
-## Conclusiones
+## Aspectos importante de los datos
+    
 
