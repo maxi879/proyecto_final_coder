@@ -21,8 +21,15 @@
         1.
         2.
     - ANALISIS, contiene el directorio \\INICIO, \\CLASIFICACION:
-        1. \\INICIO, contiene el analisis Mono, bi y multi variado.
+        1. \\inicio, contiene el analisis Mono, bi y multi variado.
         2. \\CLASIFICACION, contiene la implementación de los algoritmos de clasificación. 
+        3. \\clustering, contiene la implementación de los algoritmos de cluster.
+        4. \\hypertuning, 
+        5. \\profile.ipynb, notebook con un pandas profile.
 ## Aspectos importante de los datos
-    
+    El data set contiene 10 variables, dos son usadas como index (UDI,Product_ID). El data set contiene dos variables, Target y Failure_Type, ambas son las variables a predecir. Target es una variable binaria, mientras que Failure_Type es es multiclass.
+    Dentro de las restantes 6 se encuentran Type, es una variable categorica, mientras que las otras 5 son variables numericas, que representan datos continuos proviniente de sensores instalados en las maquinas.
+## Puntos de interes
+## Conclusiones
+
 
