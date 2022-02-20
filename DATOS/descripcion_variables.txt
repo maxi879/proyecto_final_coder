@@ -17,6 +17,7 @@ air temperature [K]: generated using a random walk process later normalized to a
 
 process temperature [K]: generated using a random walk process normalized to a standard deviation of 1 K, added to the air temperature plus 10 K.
 
+Type: consisting of a letter L, M, or H for low (50% of all products), medium (30%), and high (20%).
 
 rotational speed [rpm]: calculated from powepower of 2860 W, overlaid with a normally distributed noise
 
