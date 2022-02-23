@@ -13,8 +13,8 @@
     - Sklearn ==> Machine Learning y metricas.
     - Imblearn ==> Para solucionar problemas de balanceo de datos.
 ## Objetivo
-    Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
-    Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
+Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
+Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
 ## Contenido
     El repositorio contiene dos directorios principales, \\DATOS y \\ANALISIS:
     - DATOS, contiene archivos .csv con los datos a analisar:
@@ -38,6 +38,5 @@ Estos datos pueden ser observados en los cuadros de medianas. Dentro del directo
      - Falla de energía (PWF): el producto del par y la velocidad de rotación (en rad/s) es igual a la potencia requerida para el proceso. Si esta potencia está por debajo de 3500 W o por encima de 9000 W, el proceso falla, que es el caso 95 veces en nuestro conjunto de datos.
      - Fallo por sobreesfuerzo (OSF): si el producto del desgaste de la herramienta y el par supera los 11 000 minNm para la variante de producto L (12 000 M, 13 000 H), el proceso falla debido al sobreesfuerzo. Esto es cierto para 98 puntos de datos.
 ## Machine Learning 
-El set de datos
-
+El modelo optimo para la prediccion de ambas variables Target, es RandomForestClassifier, las metricas utilizadas para esta conclusion se encuentra dentro de analisis\clasificacion\clasificadores.ipynb este notebook esta basado en codigo ageno, pero fue personalizado.
 
