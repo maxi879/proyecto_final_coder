@@ -32,7 +32,12 @@
 ## Puntos de interes
 Este analisis parte de la necesidad de brindar la capacidad de prevenir y evitar roturas de maquinas de produccion masiva.
 Buscaremos identificar cuales son las variables mas significativas al momento de rotura segun su tipo. Esto permitira a la empresa disminuir los momentos de falla, logrando asi una mayor estabilidad de la linea de produccion y evitar costos mayores por fallas serias causadas por problemas constantes sin resolver. Se fijaran paramentros de funcionanmientos normales.
-
-## Conclusiones
+Estos datos pueden ser observados en los cuadros de medianas. Dentro del directorio //inicio.
+     - Falla por desgaste de la herramienta (TWF): la herramienta se reemplazará por falla en un tiempo de desgaste de la herramienta seleccionado aleatoriamente entre 200 y 240 minutos (120 veces en nuestro conjunto de datos). En este momento, la herramienta se reemplaza 69 veces y falla 51 veces (asignadas aleatoriamente).
+     - Falla por disipación de calor (HDF): la disipación de calor provoca una falla en el proceso, si la diferencia entre la temperatura del aire y la del proceso es inferior a 8,6 K y la velocidad de rotación de la herramienta es inferior a 1380 rpm. Este es el caso de 115 puntos de datos.
+     - Falla de energía (PWF): el producto del par y la velocidad de rotación (en rad/s) es igual a la potencia requerida para el proceso. Si esta potencia está por debajo de 3500 W o por encima de 9000 W, el proceso falla, que es el caso 95 veces en nuestro conjunto de datos.
+     - Fallo por sobreesfuerzo (OSF): si el producto del desgaste de la herramienta y el par supera los 11 000 minNm para la variante de producto L (12 000 M, 13 000 H), el proceso falla debido al sobreesfuerzo. Esto es cierto para 98 puntos de datos.
+## Machine Learning 
+El set de datos
 
 
