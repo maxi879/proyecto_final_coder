@@ -17,9 +17,6 @@ Este repositorio tiene como objetivo realizar un analisis para luego implementar
 Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
 ## Contenido
     El repositorio contiene dos directorios principales, \\DATOS y \\ANALISIS:
-    - DATOS, contiene archivos .csv con los datos a analisar:
-        1.
-        2.
     - ANALISIS, contiene el directorio \\INICIO, \\CLASIFICACION:
         1. \\inicio, contiene el analisis Mono, bi y multi variado.
         2. \\CLASIFICACION, contiene la implementación de los algoritmos de clasificación. 
