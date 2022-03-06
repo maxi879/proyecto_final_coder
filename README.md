@@ -36,4 +36,7 @@ Estos datos pueden ser observados en los cuadros de medianas. Dentro del directo
      - Fallo por sobreesfuerzo (OSF): si el producto del desgaste de la herramienta y el par supera los 11 000 minNm para la variante de producto L (12 000 M, 13 000 H), el proceso falla debido al sobreesfuerzo. Esto es cierto para 98 puntos de datos.
 ## Machine Learning 
 El modelo optimo para la prediccion de ambas variables Target, es RandomForestClassifier, las metricas utilizadas para esta conclusion se encuentra dentro de analisis\clasificacion\clasificadores.ipynb este notebook esta basado en codigo ageno, pero fue personalizado.
+## Mejor resoluciones
+https://www.kaggle.com/durgancegaur/97-accuracy-along-with-eda-and-up-sampling
+https://www.kaggle.com/foocheechuan/tackling-imbalanced-data-multi-class
 
