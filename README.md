@@ -12,16 +12,22 @@
     - Nunpy ==> Para manipulacion de los datos.
     - Sklearn ==> Machine Learning y metricas.
     - Imblearn ==> Para solucionar problemas de balanceo de datos.
+    - pandas_profiling ==> Profile
 ## Objetivo
 Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
 Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
 ## Contenido
 Dentro del directorio principal se encuentra :
     - \\analisis
-    - \\Resultados_importantes.pdf
-    - \\README.md
-    - \\EDA
+        - \clasificacion ==> contiene .ipynb con la implementacion y evaluacion.
+        - \EDA ==> contiene dos .ipynb con el analisis exploratorio de los datos, y otro .ipynb con un panda profile. 
+        - \hypertuninga ==> contiene un .ipynb con el hipertuneo de parametros del Random Forest.
     - \\datos
+        - descripcion_variables.txt
+        - Base_predictive_maintenance.csv
+    - \\Resultados_importantes.pdf ==> presentacion de los datos.
+    - \\README.md
+
 ## Aspectos importante de los datos
     El data set contiene 10 variables, dos son usadas como index (UDI,Product_ID). El data set contiene dos variables, Target y Failure_Type, ambas son las variables a predecir. Target es una variable binaria, mientras que Failure_Type es es multiclass.
     Dentro de las restantes 6 se encuentran Type, es una variable categorica, mientras que las otras 5 son variables numericas, que representan datos continuos proviniente de sensores instalados en las maquinas.
