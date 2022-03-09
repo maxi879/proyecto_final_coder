@@ -18,14 +18,21 @@ Este repositorio tiene como objetivo realizar un analisis para luego implementar
 Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
 ## Contenido
 - Dentro del directorio principal se encuentra :
+
     - \\analisis
         - \clasificacion ==> contiene .ipynb con la implementacion y evaluacion.
-        - \EDA ==> contiene dos .ipynb con el analisis exploratorio de los datos, y otro .ipynb con un panda profile. 
+
+        - \EDA ==> contiene dos .ipynb con el analisis exploratorio de los datos, y otro .ipynb con un panda profile.
+
         - \hypertuninga ==> contiene un .ipynb con el hipertuneo de parametros del Random Forest.
+
     - \\datos
-        - descripcion_variables.txt
-        - Base_predictive_maintenance.csv
+        - descripcion_variables.txt ==> leer antes de explorar el EDA.
+
+        - Base_predictive_maintenance.csv ==> dataset.
+
     - \\Resultados_importantes.pdf ==> presentacion de los datos.
+
     - \\README.md
 
 ## Aspectos importante de los datos
