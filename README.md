@@ -17,7 +17,7 @@
 Este repositorio tiene como objetivo realizar un analisis para luego implementar un modelo de MACHINE LEARNING. 
 Dentro de este repositorio se utiliza exclusivamente el lenguaje de Python.
 ## Contenido
-Dentro del directorio principal se encuentra :
+- Dentro del directorio principal se encuentra :
     - \\analisis
         - \clasificacion ==> contiene .ipynb con la implementacion y evaluacion.
         - \EDA ==> contiene dos .ipynb con el analisis exploratorio de los datos, y otro .ipynb con un panda profile. 
